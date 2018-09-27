@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace test_3
 {
-    class Program
+    class Bird
     {
         private string Name { get; set; }
         private string Species { get; set; }
@@ -63,8 +63,9 @@ namespace test_3
             Bird birdObj = new Bird(Name, Species, Sex, Weight, BandNo);
             birdObj.DisplayBird();
 
-
+            Console.ReadLine();
 
 
         }
     }
+}
